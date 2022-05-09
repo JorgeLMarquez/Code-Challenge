@@ -4,11 +4,14 @@
   "description": "Code Challenge de la Semana 4",
   "main": "index.js",
   "scripts": {
+    "test": "node ./node_modules/.bin/jest",
     "server": "node ./lib/server.js"
   },
   "author": "JorgeLMarquez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "jest-json-matchers": "^1.1.0"
   }
 }
